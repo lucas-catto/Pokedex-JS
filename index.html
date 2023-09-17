@@ -5,12 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pokédex</title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     </head>
     <body>
         <div class="container">
+            
             <header>
-                <h1>Pokédex</h1>
+                <a href=""><h1>Pokédex</h1></a>
+                
+                <div class="menu">
+                    
+                    <button class="menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+
+                    <ul class="menu-itens">
+                        <li><button id="agua"     style="background-color:#39f" >Água</button></li>
+                        <li><button id="fogo"     style="background-color:#f42" >Fogo</button></li>
+                        <li><button id="inseto"   style="background-color:#ab6" >Inseto</button></li>
+                        <li><button id="planta"   style="background-color:#7c5" >Planta</button></li>
+                        <li><button id="venenoso" style="background-color:#a59" >Venenoso</button></li>
+                        <li><button id="voador"   style="background-color:#89f" >Voador</button></li>
+                    </ul>
+                </div>
             </header>
+
 
             <main id="main"></main>
             
@@ -20,5 +39,6 @@
         </div>
 
         <script src="./script.js"></script>
+        <script src="./menu.js"></script>
     </body>
 </html>
