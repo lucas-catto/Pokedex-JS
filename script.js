@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
                 pokes += `
                     <div class="card">
-                        <div class="Image">
+                        <div id="Imagem">
                             <img src="${poke.Imagem}">
                         </div>
                                               
