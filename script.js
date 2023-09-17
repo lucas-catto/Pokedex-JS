@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function(){
 
-    fetch('0_Data/pokemons.json')
+    fetch('Pokemons.json')
 
         .then(response => response.json())
         .then(data => {
@@ -28,5 +28,5 @@ document.addEventListener("DOMContentLoaded", function(){
             });
             document.getElementById('main').innerHTML = pokes;
         })
-        .catch(error = console.error('Erro ao buscar personagens:', error));
+        .catch(error = console.error('Erro ao buscar pokemons:', error));
 });
